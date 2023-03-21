@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #424242;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    background: linear-gradient(90deg, violet, #ffff00, #ff00f3, #5373f6, #ff00c4, #f59a9a);
+    background-size: 400%;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    0%{
+        background-position: 400%;
+    }
+}
